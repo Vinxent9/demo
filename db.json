@@ -1,14 +1,27 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "confirmed": {
+    "value": 2824728,
+    "detail": "https://covid19.mathdro.id/api/confirmed"
+  },
+  "recovered": {
+    "value": 798114,
+    "detail": "https://covid19.mathdro.id/api/recovered"
+  },
+  "deaths": {
+    "value": 197667,
+    "detail": "https://covid19.mathdro.id/api/deaths"
+  },
+  "dailySummary": "https://covid19.mathdro.id/api/daily",
+  "dailyTimeSeries": {
+    "pattern": "https://covid19.mathdro.id/api/daily/[dateString]",
+    "example": "https://covid19.mathdro.id/api/daily/2-14-2020"
+  },
+  "image": "https://covid19.mathdro.id/api/og",
+  "source": "https://github.com/mathdroid/covid19",
+  "countries": "https://covid19.mathdro.id/api/countries",
+  "countryDetail": {
+    "pattern": "https://covid19.mathdro.id/api/countries/[country]",
+    "example": "https://covid19.mathdro.id/api/countries/USA"
+  },
+  "lastUpdate": "2020-04-25T11:31:19.000Z"
 }
